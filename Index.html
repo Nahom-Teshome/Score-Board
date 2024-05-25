@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <h2>HOME</h2>
+    </div>
+
+    <div>
+      <h2> GUEST</h2>
+    </div>
+  </div>
+
+     <div class="container2">
+        <div>
+            <p id="homeCounter">
+                0
+            </p>
+        </div>
+       
+        <div>
+            <p id="guestCounter">
+                0
+            </p>
+        </div>
+    </div>
+
+    <div class="container3">
+        <div>
+            <button id="hCounter-el" onclick="addOneHome()">+1</button>
+            <button id="hCounter-el2" onclick="addTwoHome()">+2</button>
+            <button id ="hCounter-el3" onclick="addThreeHome()">+3</button>
+
+         </div>
+        <div>
+            <button id="gCounter-el" onclick="addOneGuest()">+1</button>
+            <button id="gCounter-el2" onclick="addTwoGuest()">+2</button>
+            <button id="gCounter-el3" onclick="addThreeGuest()">+3</button>
+        </div>
+        
+    </div>
+    <div class="container4">
+        <div>
+            <button id="newGameBtn" onclick="setToZero()">New Game!</button>
+        </div>
+    </div>
+  
+<script src="Index.js"></script>
+</body>
+
+</html>

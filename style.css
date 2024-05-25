@@ -1,0 +1,148 @@
+/*{
+     font-family: "Major Mono Display", monospace;
+}*/
+body{
+    background-color: rgb(6, 31, 75);
+}
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(6, 31, 75);
+    font-size: 50px;
+    color: white;
+    
+}
+
+.container2
+{
+    
+
+    margin: 10px;
+    display: flex;
+   justify-content: space-around;
+    /* background-color: rgb(235, 180, 180);*/
+}
+
+#homeCounter{
+    /*border: 5px solid red;*/
+    background-color: black;
+    color: rgb(204, 28, 63);
+    /*flex:50%;*/
+   text-align: center;
+   align-content: center;
+    margin:2px ;
+    height: 190px;
+    width: 250px;
+    font-size:250px;
+   
+}
+
+  
+
+#guestCounter{
+   /* border: 5px dashed blue;
+    flex:50%; */
+    text-align: center;
+   align-content: center;
+    margin: 2px;
+     height: 190px;
+    width: 250px;
+    background-color:black;
+    color: rgb(204, 28, 63);
+     font-size:250px;
+    
+}
+
+
+.container3
+{
+    display: flex;
+    justify-content: space-around;
+   
+}
+#hCounter-el{
+    background-color:rgb(6, 31, 75);
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    margin: 0px 3px;
+    color: white;
+   
+}
+#gCounter-el{
+    background-color:rgb(6, 31, 75);
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    margin: 0px 3px;
+    color: white;
+   
+   
+}
+
+#hCounter-el2{
+    background-color:rgb(6, 31, 75);
+    border:2px solid white;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    margin: 0px 3px;
+    color: white;
+   
+}
+#gCounter-el2{
+    background-color:rgb(6, 31, 75);
+    border-radius: 5px;
+    border:2px solid white;
+    height: 40px;
+    width: 40px;
+    margin: 0px 3px;
+    color: white;
+   
+}
+
+#hCounter-el3{
+    background-color:rgb(6, 31, 75) ;
+    border:2px solid white;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    margin: 0px 3px;
+    color: white;
+   
+}
+#gCounter-el3{
+    background-color:rgb(6, 31, 75) ;
+    border:2px solid white;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    margin: 0px 3px;
+    color: white;
+   
+}
+
+.container4{
+    display: flex;
+    justify-content: space-around;
+}
+
+#newGameBtn{
+    height: 60px;
+    width: 110px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+:hover#newGameBtn{
+    opacity: 1;
+   background-color: rgb(4, 50, 95);
+   transform: scale(1.05);
+   font-weight: bold;
+   color: aquamarine;
+   border:solid rgb(234, 164, 164);
+  
+}
